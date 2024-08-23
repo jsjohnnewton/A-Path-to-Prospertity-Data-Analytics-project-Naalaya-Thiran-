@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --pri:#470a52;
+    --sec:#c3c0c7;
+    --dark:#8d1662;
+    --light: #f7f7f7;
+    --og:#c54b8c;
+}
+
+.container
+{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.header
+{
+    background-color: var(--pri);
+    color: white;
+    border: var(--og);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.header h3,h6
+{
+    margin:2px;
+}
+.page
+{
+    display:flex;
+    flex-direction:row;
+    color: white;
+    padding: 2px;
+    height:auto;
+}
+
+.tab 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 5px; */
+    text-align: center;
+    background-color: var(--pri);
+}
+
+.tab button
+{
+    display: block;
+    background: none;
+    margin:3px 0px;
+    padding: 9px 5px 9px 15px;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    color: white;
+}
+
+.tab button:hover
+{
+    background-color:var(--dark);
+}
+
+.tab button a
+{
+    text-decoration:none;
+    color: white;
+}
+
+.tab button a:hover
+{
+    color:black;
+}
